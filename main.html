@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./image/picture2.jpg" alt="This is my logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Python Developer</p>
+                <h1>Hello, I'm Ngo Thanh Nhon,<br> I'm from VietNam</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ===About=== -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./image/picture3.jpg" alt="This is my image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I have completed my university program and now aim to gain practical
+                        experience and deepen my understanding of Python frameworks,
+                        libraries, and other languages like Java, Javascript, and C++. My goal is
+                        to become a Python developer with a focus on backend development in
+                        the future</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skill</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Designing App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>123</span><br>Designing Web/App</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Designing App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Designing App</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========skill========= -->
+    <div id="skill">
+        <div class="container">
+            <h1 class="title">My Skill</h1>
+            <div class="skill-list">
+                <div>
+                    <h2>Programing</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>C++, C#.Net</li>
+                        <li>Javascript</li>
+                        <li>HTML, CSS</li>
+                    </ul>
+                    <h2>Frameworks</h2>
+                    <ul>
+                        <li>Reactjs</li>
+                        <li>Django, Tensorflow, Keras</li>
+                        <li>ASP.NET MVC, ASP.NET Core 6.0</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Database</h2>
+                    <ul>
+                        <li>Microsoft SQL</li>
+                        <li>MySQL</li>
+                    </ul>
+                    <h2>Version Control</h2>
+                    <ul>
+                        <li>Git(Git Shell& Github)</li>
+                    </ul>
+                    <h2>IDE</h2>
+                    <ul>
+                        <li>Visual Studio</li>
+                        <li>Visual Studio Code</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Language</h2>
+                    <ul>
+                        <li>TOEIC 560/990</li>
+                    </ul>
+                    <h2>Knowledge</h2>
+                    <ul>
+                        <li>Deep understanding about OOP</li>
+                        <li>Good time management, presentation 
+                            <br>and teamwork skills,...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ======portfolio====== -->
+    
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
