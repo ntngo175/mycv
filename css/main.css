@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #fff;
+    background: #dcedf0;
     /* color: #fff; */
 }
 
@@ -109,6 +109,7 @@ nav ul li a:hover::after {
 
 .about-col-2 p {
     color: #000000;
+    font-size: 20px;
 }
 
 .tab-titles {
@@ -146,7 +147,7 @@ nav ul li a:hover::after {
 }
 
 .tab-contents ul li span {
-    color: #ff004f;
+    color: #000000;
     font-size: 14px;
 }
 
