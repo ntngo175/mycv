@@ -210,8 +210,14 @@ nav ul li a:hover::after {
 }
 
 .social-icon a{
-    color: rgb(56, 53, 228);
+    color: rgb(0, 0, 0);
     display: inline-block;
     margin-right: 12px;
     font-size: 30px;
+    transition: 0.5s;
+}
+
+.social-icon a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
 }
