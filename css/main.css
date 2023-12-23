@@ -144,12 +144,15 @@ nav ul li a:hover::after {
 .tab-contents ul li {
     list-style: none;
     margin: 10px 0;
-
+    color: rgb(136, 132, 132);
 }
 
 .tab-contents ul li span {
     color: #000000;
-    font-size: 14px;
+    font-size: 15px;
+}
+.tab-contents ul li span i {
+    margin: 5px;
 }
 
 .tab-contents {
@@ -180,7 +183,7 @@ nav ul li a:hover::after {
 }
 
 .skill-list div {
-    background: rgb(224, 219, 219);
+    background: rgb(236, 232, 232);
     padding: 35px;
     font-size: 15px;
     font-weight: 300;
@@ -200,4 +203,15 @@ nav ul li a:hover::after {
 .skill-list div:hover {
     background: rgb(165, 177, 216);
     transform: translateY(-10px);
+}
+
+.social-icon {
+    margin: 10px 0px;
+}
+
+.social-icon a{
+    color: rgb(56, 53, 228);
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 30px;
 }
