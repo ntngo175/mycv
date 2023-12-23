@@ -65,9 +65,11 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-    margin-top: 20%;
+    /* margin-top: 20%;
     padding-left: 15%;
-    font-size: 30px;
+    font-size: 30px; */
+    text-align: center;
+    margin-top: 20%;
 }
 
 .header-text h1{
@@ -222,7 +224,7 @@ nav ul li a:hover::after {
     transform: translateY(-5px);
 }
 
-#portfolio {
+#project {
     padding: 70px 0;
 }
 
