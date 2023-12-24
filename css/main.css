@@ -203,7 +203,7 @@ nav ul li a:hover::after {
 
 
 .skill-list div:hover {
-    background: rgb(165, 177, 216);
+    background: linear-gradient(rgba(230, 226, 226, 0.6), #71e78b);
     transform: translateY(-10px);
 }
 
